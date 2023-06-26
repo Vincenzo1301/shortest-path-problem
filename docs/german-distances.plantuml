@@ -1,11 +1,11 @@
 @startuml
 
 ' Define nodes
-node "City A" as cityA
-node "City B" as cityB
-node "City C" as cityC
-node "City D" as cityD
-node "City E" as cityE
+node "Eldoria" as cityA
+node "Mysthaven" as cityB
+node "Avaloria" as cityC
+node "Dragonia" as cityD
+node "Celestria" as cityE
 
 ' Define edges with distances
 cityA --> cityB : 10km
