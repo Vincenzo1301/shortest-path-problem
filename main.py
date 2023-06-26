@@ -14,8 +14,9 @@ def single_destination_shortest_path(graph, end_node):
     # Implementation of the shortest path algorithm here
     pass
 
+
 if __name__ == '__main__':
-    # Example usage
+    # Define graph
     graph = {
         'A': ['B', 'C'],
         'B': ['A', 'C', 'D'],
@@ -23,7 +24,10 @@ if __name__ == '__main__':
         'D': ['B', 'C', 'E'],
         'E': ['D']
     }
+
+    # Define start and end node
     start_node = 'A'
     end_node = 'E'
+
     shortest_paths = single_destination_shortest_path(graph, end_node)
     print(shortest_paths)
