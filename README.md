@@ -2,7 +2,7 @@
 
 ## Das Problem
 Problem des kürzesten Weges, „shortest-path-Problem“ oder kurz SP-Problem, besteht darin, in einem zusammenhängenden und
-bewerteten Graphen zwischen zwei verschiedenen Ecken einen kürzesten Weg aufzuspüren.
+bewerteten Graphen zwischen zwei verschiedenen Knoten einen kürzesten Weg aufzuspüren.
 
 ## Grundlagen
 - Ein Graph G besteht aus einer Menge von Knoten V und einer Menge von Kanten oder Pfeilen.
