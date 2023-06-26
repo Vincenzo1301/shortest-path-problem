@@ -1,0 +1,18 @@
+@startuml
+
+' Define nodes
+node "City A" as cityA
+node "City B" as cityB
+node "City C" as cityC
+node "City D" as cityD
+node "City E" as cityE
+
+' Define edges with distances
+cityA --> cityB : 10km
+cityA --> cityC : 8km
+cityB --> cityD : 15km
+cityB --> cityE : 12km
+cityC --> cityD : 5km
+cityD --> cityE : 7km
+
+@enduml
